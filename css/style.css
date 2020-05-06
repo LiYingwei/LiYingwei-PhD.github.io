@@ -24,3 +24,7 @@ td > img {
         width: 100%;
     }
 }
+
+#hidden_news {
+    display: none;
+}

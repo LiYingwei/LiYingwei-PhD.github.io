@@ -4,6 +4,7 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-7580334-2"></script>
   <script type="text/javascript" src="js/hidebib.js"></script>
+  <script type="text/javascript" src="js/shownews.js"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -45,6 +46,9 @@
                 <a href="https://scholar.google.com/citations?hl=en&user=phWmJeIAAAAJ">Google Scholar</a> &nbsp/&nbsp
                 <a href="https://github.com/LiYingwei">Github</a>
               </p>
+              <p style="text-align:center">
+                <a href="https://twitter.com/yingwei_li?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @yingwei_li</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
               <a href="images/YingweiLi.jpg"><img style="width:100%;max-width:100%;border-radius:50%" alt="profile photo" src="images/YingweiLi.jpg" class="hoverZoomLink"></a>
@@ -57,14 +61,20 @@
           <td style="padding:20px;width:100%;vertical-align:middle">
             <heading>News</heading>
             <ul>
-              <li>I am co-organizing the Workshop on <a href="https://eccv20-adv-workshop.github.io/">Adversarial Robustness in the Real World</a> in ECCV 2020.</li>
+              <li>I join Waymo LLC as an intern in May 2020.</li>
+              <li><font color="red"><strong>[Call for Papers]</strong></font> I am co-organizing the Workshop on <a href="https://eccv20-adv-workshop.github.io/">Adversarial Robustness in the Real World</a> in ECCV 2020. Please submit your paper <a href="https://cmt3.research.microsoft.com/AROW2020">here</a>! Deadline: June 4, 2020 AoE.</li>
               <li><a href="https://cs.jhu.edu/~alanlab/Pubs20/li2020neural.pdf">One paper</a> is accepted by <b>CVPR 2020</b>.</li>
               <li><a href="https://openreview.net/forum?id=BylQSxHFwr">One paper</a> is accepted by <b>ICLR 2020</b>.</li>
               <li><a href="https://cs.jhu.edu/~alanlab/Pubs20/li2020learning.pdf">One paper</a> is accepted by <b>AAAI 2020</b>.</li>
-              <li><a href="https://cs.jhu.edu/~alanlab/Pubs19/zhou2019multi.pdf">One paper</a> is accepted by <b>MICCAI-MLMI 2019</b>.</li>
-              <li><a href="https://cs.jhu.edu/~alanlab/Pubs19/zhou2019hyper.pdf">One paper</a> is accepted by <b>MICCAI 2019</b>.</li>
-              <li><a href="https://cs.jhu.edu/~alanlab/Pubs19/li2019learning.pdf">One paper</a> about adversarial attack is accepted by <a href="https://amlcvpr2019.github.io/">CVPR 2019 - Adversarial Machine Learning in Real-World Computer Vision Systems Workshop</a> as an <b>oral</b> presentation.</li>
-              <li>I join ByteDance AI Lab as a research intern in May 2019.</li>
+              <div id="hide_news_botton">
+                <li><a onclick="showNews()" href="#">(Show more news)</a> </li>
+              </div>
+              <div id="hidden_news">
+                <li><a href="https://cs.jhu.edu/~alanlab/Pubs19/zhou2019multi.pdf">One paper</a> is accepted by <b>MICCAI-MLMI 2019</b>.</li>
+                <li><a href="https://cs.jhu.edu/~alanlab/Pubs19/zhou2019hyper.pdf">One paper</a> is accepted by <b>MICCAI 2019</b>.</li>
+                <li><a href="https://cs.jhu.edu/~alanlab/Pubs19/li2019learning.pdf">One paper</a> is accepted by <a href="https://amlcvpr2019.github.io/">CVPR 2019 - Adversarial Machine Learning in Real-World Computer Vision Systems Workshop</a> as an <b>oral</b> presentation.</li>
+                <li>I join ByteDance AI Lab as an intern in May 2019.</li>
+              </div>
             </ul>
           </td>
         </tr>
