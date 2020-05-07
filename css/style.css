@@ -28,3 +28,7 @@ td > img {
 #hidden_news {
     display: none;
 }
+
+#hide_news_botton {
+    cursor: pointer;
+}
