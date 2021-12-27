@@ -11,6 +11,10 @@ td > img {
     width: 250px;
 }
 
+.affiliationssmall {
+    display: none;
+}
+
 @media (max-width:760px) {
     td > img {
         display: none;
@@ -22,6 +26,12 @@ td > img {
     }
     .tdcontent {
         width: 100%;
+    }
+    .affiliations {
+        display: none;
+    }
+    .affiliationssmall {
+        display: block;
     }
 }
 
